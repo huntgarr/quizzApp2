@@ -1,0 +1,196 @@
+  
+*{
+  font-family: 'News Cycle', sans-serif;
+  background-color: white;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  height: auto;
+  width: auto;
+
+}
+ul{
+  padding: 0%;
+}
+li{
+  list-style-type: none;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.guyFrame {
+  height: 20%;
+  width: 20%;
+  align-self: center;
+  margin-top: 20px;
+}
+h1{
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.tageLine{
+  font-size: 20px;
+}
+.startQuizBox{
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.startButton{
+height: 40px;
+width: 40px;
+background-image: url(images/burgerButton.png) ;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+color: transparent; 
+border: none; 
+cursor: pointer; 
+}
+
+.form{
+  height: 500px;
+  width: 500px;
+  background-image:url(images/fireAgain.jpeg) ;
+  align-self: center;
+  padding-top: 40px;
+  
+ 
+}
+.bigBox{
+ margin-left: auto;
+ margin-right: auto;
+
+}
+.submitButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  border : solid 1px #000000;
+	border-radius : 3px;
+	moz-border-radius : 3px;
+	-moz-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+	font-size : 20px;
+	color : #ffffff;
+	padding : 1px 17px;
+	background-color : #000000;
+
+}
+
+.sizeMe {
+  font-size: 18px;
+  display: block;
+  text-align: left;
+  margin-left: 10px;
+  }
+
+fieldset{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 155px;
+  height: 300px;
+  width: 350px;
+  position: relative;
+  border: none;
+  
+}
+
+.questionText{
+  font-size: 20px;
+  height: 120px;
+  width: 300px;
+  position: absolute;
+  top: 40px;
+  left: 45px;
+}
+
+.radio{
+  cursor: pointer;
+}
+.responseBox{
+  background-color: white;
+  height: 465px;
+  width: 374px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.divRe {
+  background-image: url(images/fireAgain.jpeg);
+  width: 500px;
+  height: 540px;
+  padding-top: 8px;
+  padding-bottom: 16px; 
+}
+.guyFlag{
+  width: 80%;
+}
+
+.correct{
+  font-size: 35px;
+}
+.nextButton{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  border : solid 1px #000000;
+	border-radius : 3px;
+	font-size : 20px;
+	color : #ffffff;
+	padding : 1px 17px;
+	background-color : #000000;
+}
+
+  .p2{
+    margin-bottom: 0px; 
+  }
+
+  .guySad{
+  height: 50%;
+  }
+  
+  .p3 {
+    
+    margin: 20px;
+  }
+  .wrongAnswerP{
+    margin-top: 50px;
+    margin-bottom: 0px;
+
+  }
+  .sizeIt {
+    margin-top: 0px; 
+  }
+  .finalBox{
+    height: 465px;
+    width: 367px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  .images{
+    height: 10%;
+  }
+
+  .divRe2{
+  background-image: url(images/fireAgain.jpeg);
+  width: 500px;
+  height: 540px;
+  padding-top: 8px;
+  padding-bottom: 16px; 
+  }
